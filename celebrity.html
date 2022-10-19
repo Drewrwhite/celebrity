@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Celebrity Dating Quiz</title>
+</head>
+<body>
+  <div>
+    <h1>Which Celebrity Do You Match With?</h1>
+
+    <p>We will list a few questions below!</p>
+    <p>Depending on how you answer, you will be matched with a celebrity</p>
+    <p>Answer the questions below!</p>
+
+    <form id="userInfo">
+      <p id="error-message" class="hidden">Please answer all questions!</p>
+      <label for="animals">Dogs or Cats?</label>
+      <input id="animals" type="text" name="animals">
+      <label for="foods">Fruits or Veggies?</label>
+      <input id="foods" type="text" name="foods">
+      <button type="submit">Finish!</button>
+    </form>
+
+    <div id="celeb1" class="hidden">
+      <h1>You match with Celeb 1!</h1>
+      <p>Celeb 1 is right for you.</p> 
+    </div>
+    <div id="celeb2" class="hidden">
+      <h1>You match with Celeb 2!</h1>
+      <p>Celeb 2 is right for you.</p> 
+    </div>
+    <div id="celeb3" class="hidden">
+      <h1>You match with Celeb 3!</h1>
+      <p>Celeb 3 is right for you.</p> 
+    </div>
+    <div id="celeb4" class="hidden">
+      <h1>You match with Celeb 4!</h1>
+      <p>Celeb 4 is right for you.</p> 
+    </div>
+    <div id="sorry" class="hidden">
+      <h1>You must like being solo</h1>
+      <p>Come back later</p> 
+    </div>
+  </div>
+</body>
+</html>
